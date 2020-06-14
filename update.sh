@@ -5,9 +5,12 @@
 mkdir projetos
 cd projetos
 
-git clone https://github.com/alanfortlink/ccr-wppui.git
-git clone https://github.com/alanfortlink/ccr-service.git
-git clone https://github.com/alanfortlink/ccr-webui.git
+repos="ccr-wppui.git ccr-service.git ccr-webui.git"
+
+for repo in $repos; do
+    git clone https://github.com/alanfortlink/$repo
+    rm -rf projetos/$repo/.git*
+done
 
 cd ..
 git add projetos
