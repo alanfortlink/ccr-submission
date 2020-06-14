@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm -rf *
+[[ -d projetos ]] && rm -rf projetos
 
 mkdir projetos
 cd projetos
