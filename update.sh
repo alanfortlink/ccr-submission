@@ -9,7 +9,7 @@ repos="ccr-wppui.git ccr-service.git ccr-webui.git"
 
 for repo in $repos; do
     git clone https://github.com/alanfortlink/$repo
-    rm -rf projetos/$repo/.git*
+    rm -rf projetos/$repo/.git
 done
 
 cd ..
