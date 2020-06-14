@@ -5,10 +5,10 @@
 mkdir projetos
 cd projetos
 
-repos="ccr-wppui.git ccr-service.git ccr-webui.git"
+repos="ccr-wppui ccr-service ccr-webui"
 
 for repo in $repos; do
-    git clone https://github.com/alanfortlink/$repo
+    git clone https://github.com/alanfortlink/$repo.git
     rm -rf projetos/$repo/.git
 done
 
