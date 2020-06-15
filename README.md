@@ -11,8 +11,7 @@ python bot.py # Dá start no serviço.
 Código que controla o canal de detalhes e avaliação de locais
 
 #### Como executar
-```sh
-```
+- Deixe o `index.php` disponível no seu servidor web de preferência.
 
 ### ccr-service
 Backend com o serviço utilizado por `ccr-wppui` e `ccr-webui`.
