@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Caminhoneiro ZAP">
+    <meta name="author" content="Ansonika">
+    <title>Caminhoneiro ZAP</title>
+
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+
+    <!-- GOOGLE WEB FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
+
+    <!-- BASE CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/vendors.css" rel="stylesheet">
+
+    <!-- YOUR CUSTOM CSS -->
+	<link href="css/custom.css" rel="stylesheet">
+			<style>
+				.sticky .logo-text {
+					color: #000;
+					font-size: 22px !important;
+				}
+			
+				.logo-text {
+					color: #FFF;
+					font-size: 22px !important;
+				}
+
+
+
+.rating-loading{
+    width:25px;
+    height:25px;
+    font-size:0;
+    color:#fff;
+    background:url(../img/loading.gif) top left no-repeat;border:none
+    }
+.rating-container .rating-stars
+    {position:relative;
+    cursor:pointer;
+    vertical-align:middle;
+    display:inline-block;
+    overflow:hidden;
+    white-space:nowrap
+         }
+         .rating-container .rating-input
+         {position:absolute;
+         cursor:pointer;
+         width:100%;
+         height:1px;
+         bottom:0;left:0;
+         font-size:1px;
+         border:none;
+         background:0 0;
+         padding:0;
+         margin:0
+         }
+         .rating-disabled .rating-input,.rating-disabled .rating-stars
+         {
+             cursor:not-allowed
+             
+         }
+         .rating-container .star{
+             display:inline-block;
+             margin:0 3px;
+             text-align:center
+         }
+         .rating-container .empty-stars{
+             color:#aaa
+         }
+         .rating-container .filled-stars
+         {
+             position:absolute;
+             left:0;
+             top:0;
+             margin:auto;
+             color:#fde16d;
+             white-space:nowrap;
+             overflow:hidden;
+             -webkit-text-stroke:1px #777;
+             text-shadow:1px 1px #999
+         }
+             .rating-rtl
+             {
+                 float:right
+                 
+             }
+             .rating-animate .filled-stars
+             {
+                 transition:width .25s ease;
+                 -o-transition:width .25s ease;
+                 -moz-transition:width .25s ease;-webkit-transition:width .25s ease
+             }
+             .rating-rtl .filled-stars
+             {left:auto;right:0;-moz-transform:matrix(-1,0,0,1,0,0) translate3d(0,0,0);-webkit-transform:matrix(-1,0,0,1,0,0) translate3d(0,0,0);-o-transform:matrix(-1,0,0,1,0,0) translate3d(0,0,0);
+             transform:matrix(-1,0,0,1,0,0) translate3d(0,0,0)}.rating-rtl.is-star 
+             .filled-stars{
+                 right:.06em
+                 
+             }
+             .rating-rtl.is-heart .empty-stars{
+                 margin-right:.07em
+                 
+             }
+             .rating-lg{
+                 font-size:3.91em
+                 
+             }
+             .rating-md{
+                 font-size:3.13em
+                 
+             }
+             .rating-sm{
+                 font-size:2.5em
+                 
+             }
+             .rating-xs{
+                 font-size:2em
+                 
+             }
+             .rating-xl{
+             font-size:4.89em
+                 
+             }
+             .rating-container .clear-rating{
+                 color:#aaa;
+                 cursor:not-allowed;
+                 display:inline-block;
+                 vertical-align:middle;
+                 font-size:60%;
+                 padding-right:5px
+                 
+             }
+             .clear-rating-active{
+                 cursor:pointer!important
+                 
+             }
+             .clear-rating-active:hover{
+                 color:#843534
+                 
+             }
+             .rating-container .caption{
+                 color:#999;
+                 display:inline-block;
+                 vertical-align:middle;
+                 font-size:60%;
+                 margin-top:-.6em;
+                 margin-left:5px;
+                 margin-right:0
+                 
+             }
+             .rating-rtl .caption{
+                 margin-right:5px;
+                 margin-left:0
+                 
+             }
+             @media print{.rating-container .clear-rating{
+                 display:none
+                 
+             }
+                 
+             }
+
+
+
+
+			</style>
+
+</head>
+
+<body>
+	
+	<div id="page" class="theia-exception">
+		
+	<header class="header menu_fixed">
+		<div id="preloader"><div data-loader="circle-side"></div></div><!-- /Preload -->
+
+		<!-- /top_menu -->
+
+
+
+	</header>
+	<!-- /header -->
+	
+	<main>
+		<section class="">
+			<div class="wrapper">
+				<div class="container">
+					<h1 class=""style=" color: black; "><span></span>Posto Decio Rio Verde</h1>
+				</div>
+
+			</div>
+		</section>
+		<!--/hero_in-->
+
+		<div class="bg_color_1">
+			<nav class="secondary_nav sticky_horizontal">
+
+			</nav>
+			<div class="container margin_60_35">
+				<div class="row">
+
+					
+					<!-- /col -->
+					<h2>Avalie</h2>
+					<aside class="col-lg-4" id="sidebar">
+						<div class="box_detail booking">
+
+
+
+														<div class="price">
+															<span>Banho<br><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i
+																class="icon_star voted"></i><i class="icon_star"></i><small></small></span>
+															<div class="score"><span><em></em></span></div>
+														</div>
+							<div class="price">
+								<span>Refeição <i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i
+									class="icon_star voted"></i><i class="icon_star"></i><small></small></span>
+							
+							</div>
+
+							<div class="price">
+								<span>Segurança <i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i
+									class="icon_star voted"></i><i class="icon_star"></i><small></small></span>
+							
+							</div>
+
+														<div class="price">
+<a href="avaliar-ok.html" class="btn_1 rounded full-width">Avaliar</a>														</div>
+		
+
+
+
+
+						</div>
+	
+					</aside>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /bg_color_1 -->
+	</main>
+	<!--/main-->
+	
+
+	<!--/footer-->
+	</div>
+	<!-- page -->
+	
+
+	<!-- /Sign In Popup -->
+	
+	<div id="toTop"></div><!-- Back to top button -->
+	
+	<!-- COMMON SCRIPTS -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/common_scripts.js"></script>
+    <script src="js/main.js"></script>
+	<script src="assets/validate.js"></script>
+	
+	<!-- Map -->
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script src="js/map_single_hotel.js"></script>
+	<script src="js/infobox.js"></script>
+	
+	<!-- DATEPICKER  -->
+	<script>
+	$(function() {
+	  $('input[name="dates"]').daterangepicker({
+		  autoUpdateInput: false,
+		  opens: 'left',
+		  locale: {
+			  cancelLabel: 'Clear'
+		  }
+	  });
+	  $('input[name="dates"]').on('apply.daterangepicker', function(ev, picker) {
+		  $(this).val(picker.startDate.format('MM-DD-YY') + ' > ' + picker.endDate.format('MM-DD-YY'));
+	  });
+	  $('input[name="dates"]').on('cancel.daterangepicker', function(ev, picker) {
+		  $(this).val('');
+	  });
+	});
+	</script>
+	
+	<!-- INPUT QUANTITY  -->
+	<script src="js/input_qty.js"></script>
+	
+
+	
+	
+  
+</body>
+</html>

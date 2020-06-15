@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Caminhoneiro ZAP">
+    <meta name="author" content="Ansonika">
+    <title>Caminhoneiro ZAP</title>
+
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+
+    <!-- GOOGLE WEB FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
+
+    <!-- BASE CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/vendors.css" rel="stylesheet">
+
+    <!-- YOUR CUSTOM CSS -->
+	<link href="css/custom.css" rel="stylesheet">
+			<style>
+				.sticky .logo-text {
+					color: #000;
+					font-size: 22px !important;
+				}
+			
+				.logo-text {
+					color: #FFF;
+					font-size: 22px !important;
+				}
+			</style>
+
+</head>
+
+<body>
+	
+	<div id="page" class="theia-exception">
+		
+	<header class="header menu_fixed">
+		<div id="preloader"><div data-loader="circle-side"></div></div><!-- /Preload -->
+		<div id="logo">
+
+		</div>
+
+		<!-- /top_menu -->
+
+
+
+	</header>
+	<!-- /header -->
+	
+	<main>
+		<section class="">
+			<div class="wrapper">
+				<div class="container">
+					<h1 class="" style=" color: black;"> <span></span>Posto Decio Rio Verde</h1>
+				</div>
+
+			</div>
+		</section>
+		<!--/hero_in-->
+
+		<div class="bg_color_1">
+			<nav class="secondary_nav sticky_horizontal">
+
+			</nav>
+			<div class="container margin_60_35">
+				<div class="row">
+
+					
+					<!-- /col -->
+				
+					<aside class="col-lg-4" id="sidebar">
+						<div class="box_detail booking">
+														<div class="price">
+															<span>Obrigado pela Avaliação!<br><small></small></span>
+															<div class="score"><span><em></em></span></div>
+														</div>
+
+
+
+
+														<div class="price">
+<a href="https://api.whatsapp.com/send?phone=14155238886&text=" class="btn_1 rounded full-width">Voltar para o WhatsApp</a>														</div>
+		
+
+
+
+
+						</div>
+	
+					</aside>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /bg_color_1 -->
+	</main>
+	<!--/main-->
+	
+
+	<!--/footer-->
+	</div>
+	<!-- page -->
+	
+
+	<!-- /Sign In Popup -->
+	
+	<div id="toTop"></div><!-- Back to top button -->
+	
+	<!-- COMMON SCRIPTS -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/common_scripts.js"></script>
+    <script src="js/main.js"></script>
+	<script src="assets/validate.js"></script>
+	
+	<!-- Map -->
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script src="js/map_single_hotel.js"></script>
+	<script src="js/infobox.js"></script>
+	
+	<!-- DATEPICKER  -->
+	<script>
+	$(function() {
+	  $('input[name="dates"]').daterangepicker({
+		  autoUpdateInput: false,
+		  opens: 'left',
+		  locale: {
+			  cancelLabel: 'Clear'
+		  }
+	  });
+	  $('input[name="dates"]').on('apply.daterangepicker', function(ev, picker) {
+		  $(this).val(picker.startDate.format('MM-DD-YY') + ' > ' + picker.endDate.format('MM-DD-YY'));
+	  });
+	  $('input[name="dates"]').on('cancel.daterangepicker', function(ev, picker) {
+		  $(this).val('');
+	  });
+	});
+	</script>
+	
+	<!-- INPUT QUANTITY  -->
+	<script src="js/input_qty.js"></script>
+	
+	<!-- INSTAGRAM FEED  -->
+	<script>
+	$(window).on('load', function(){
+			"use strict";
+			$.instagramFeed({
+				'username': 'postoshellriodoce',
+				'container': "#instagram-feed-hotel",
+				'display_profile': false,
+				'display_biography': false,
+				'display_gallery': true,
+				'get_raw_json': false,
+				'callback': null,
+				'styling': true,
+				'items': 12,
+				'items_per_row': 6,
+				'margin': 1 
+			});
+		});
+	</script>
+	
+	
+  
+</body>
+</html>
